@@ -1,0 +1,29 @@
+.body-main-container {
+    background-image: url("https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?cs=srgb&dl=pexels-fwstudio-129731.jpg&fm=jpg");
+    height: 100vh;
+}
+input {
+    width: 800px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+button {
+    height: 20px;
+}
+
+.search-container {
+    height: 50px;
+}
+
+.render-container {
+    margin: 0 200px;
+    margin-top: 30px;
+    /* background-color: blueviolet; */
+    height: 80%;
+}
+
+.book-card {
+    height: 400px;
+    width: 300px;
+}
