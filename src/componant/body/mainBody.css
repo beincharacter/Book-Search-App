@@ -1,4 +1,4 @@
-.body-main-container {
+/* .body-main-container {
     background-image: url("https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?cs=srgb&dl=pexels-fwstudio-129731.jpg&fm=jpg");
     height: 100vh;
 }
@@ -19,11 +19,23 @@ button {
 .render-container {
     margin: 0 200px;
     margin-top: 30px;
-    /* background-color: blueviolet; */
+    background-color: blueviolet;
     height: 80%;
 }
 
 .book-card {
-    height: 400px;
-    width: 300px;
+    display: flex;
+    float: left;
+    height: 200px;
+    width: 150px;
+    margin: 20px;
 }
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.book-info {
+    display: none;
+} */
