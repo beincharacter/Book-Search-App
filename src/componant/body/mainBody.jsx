@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../header/header";
-import "./mainBody.css"
 import { useState } from "react";
 import './style.scss';
 
@@ -42,8 +41,7 @@ const MainBody = () => {
             <Header />
             <div className="body-main-container" >
                 <div className="search-container">
-                    <input type="text" onChange={(e) => render(e)} />
-                    <button>Search</button>
+                    <input type="text" placeholder="search here" onChange={(e) => render(e)} />
                 </div>
                 <div className="render-container">
                     {
